@@ -54,8 +54,8 @@ set(PRINT_VERSION_MAJOR 0)
 
 Создание файлов `DESCRIPTION` и `ChangeLog.md`
 ```ShellSession
-$ touch DESCRIPTION && edit DESCRIPTION                 #создание и редактиривание файла DESCRIPTION
-$ touch ChangeLog.md                                    #создание файла ChangeLog.md
+$ touch DESCRIPTION && edit DESCRIPTION                
+$ touch ChangeLog.md                                  
 $ DATE=`date` cat > ChangeLog.md <<EOF                  #добавление даты, имени пользователя и электронной почты
 * ${DATE} ${GITHUB_USERNAME} <${GITHUB_EMAIL}> 0.1.0.0
 - Initial RPM release
